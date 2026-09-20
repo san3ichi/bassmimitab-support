@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ベース耳TAB サポート / Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0 auto; padding: 28px 18px 72px; max-width: 42rem;
+         font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.85; color: #1b2430; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e8eef5; background: #121820; } a { color: #8ab4f8; } }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  h2 { font-size: 1.05rem; margin: 32px 0 8px; padding-top: 14px; border-top: 1px solid rgba(128,128,128,.28); }
+  .date { font-size: .85rem; opacity: .7; margin: 0 0 4px; }
+  .who { font-size: .85rem; opacity: .85; margin: 0 0 24px; }
+  ul { padding-left: 1.2em; } li { margin: 4px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  td, th { border: 1px solid rgba(128,128,128,.35); padding: 6px 8px; text-align: left; }
+</style>
+</head>
+<body>
+
+<h1>ベース耳TAB サポート</h1>
+<p class="date">最終更新：2026-09-20</p>
+<p class="who">本アプリは個人の開発者が個人で開発・運営しています。</p>
+
+<h2>お問い合わせ</h2>
+<p><a href="mailto:san3ichi.app@gmail.com">san3ichi.app@gmail.com</a></p>
+<p>不具合のご連絡には、アプリの<strong>設定 →「記録を書き出す」</strong>で保存できる記録を添えていただけると助かります。記録は、この iPhone の中にだけ残っているものです（曲名が含まれます。送るかどうかはお客さまが決められます）。</p>
+
+<h2>使い方（かんたんに）</h2>
+<ul>
+  <li>「取り込み」タブで音源を選ぶと、BPM を自動で見積もり、そのまま解析できます。</li>
+  <li>音源が手元にないときは、曲が 1 つもない画面の「<strong>サンプル曲で試す</strong>」を押してください。</li>
+  <li>できた楽譜は「楽譜修正」で直せます。小節線の位置もずらせます。</li>
+  <li>直した内容は「送る」で開発者に送っていただけます（任意。初回に説明が出ます）。</li>
+</ul>
+
+<h2>できること・できないこと（正直に）</h2>
+<table>
+  <tr><th>対応する音源</th><td>44.1 kHz の音源。<strong>48 kHz の音源は現在お使いいただけません</strong>（入口でお断りします）</td></tr>
+  <tr><th>曲の長さ</th><td><strong>約 7 分まで</strong></td></tr>
+  <tr><th>検出の精度</th><td><strong>完璧ではありません。</strong>手直しを前提にしています。とくに<strong>アタックの速い曲・テンポが速い曲</strong>は苦手です</td></tr>
+  <tr><th>得意なもの</th><td>ゆっくりした曲・シンプルなベースライン</td></tr>
+  <tr><th>テンポ</th><td>1 つの BPM と等間隔の小節線で表します。<strong>人の演奏のテンポのゆらぎには追随しません</strong></td></tr>
+  <tr><th>通信</th><td>解析はすべて iPhone の中で行います。通信するのは、修正を「送る」を押したとき（および送れなかった分を次回に送り直すとき）だけです</td></tr>
+  <tr><th>対応</th><td>iOS 16.4 以降。<strong>iPhone 11 以降を想定しています</strong>（それより前の機種では、解析が途中で止まることがあります）。開発者は iOS 26（iPhone 11）で動作を確認しています。iPhone のみ（iPad 用の画面は用意していません）</td></tr>
+</table>
+
+<h2>よくあるご質問</h2>
+<p><strong>Q. 音源はどこかへ送られますか。</strong><br>いいえ。音源そのもの・iPhone の中でのファイルの場所・音源のデータから直接計算した指紋（ハッシュ）を、外へ送ることはありません。曲名については次の項目をご覧ください。</p>
+<p><strong>Q.「送る」を押すと何が送られますか。</strong><br>解析でできた楽譜と、直した内容です。曲名は必須で、欄には楽譜一覧の名前が初めから入っています（送る前に書き換えられます）。<strong>楽譜の内容から、どの曲かを推測できる場合があります。</strong>使い道は解析の精度を上げるためだけで、公開も第三者への提供もしません。</p>
+<p><strong>Q. 小節線が音とずれています。</strong><br>「楽譜修正」の「小節線」で左右にずらせます。曲の途中でテンポが変わる曲には追随できません。</p>
+<p><strong>Q. 48 kHz の音源を使いたい。</strong><br>次の版で対応を検討しています。いまは 44.1 kHz に変換してからお試しください。</p>
+<p><strong>Q. 修正を送りたくありません。</strong><br>送らなくてもすべての機能をお使いいただけます。設定画面で同意を取り消すこともできます。</p>
+
+<hr style="margin:40px 0 0;border:0;border-top:1px solid rgba(128,128,128,.28)">
+
+<h1>Bass TAB by Ear — Support</h1>
+<p class="date">Last updated: 2026-09-20</p>
+<p class="who">This app is developed and operated by an individual developer.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:san3ichi.app@gmail.com">san3ichi.app@gmail.com</a></p>
+<p>When reporting a problem, the log from <strong>Settings → “Export the log”</strong> helps. It stays on your iPhone unless you export and send it yourself (it contains song names).</p>
+
+<h2>How to use it</h2>
+<ul>
+  <li>In the Import tab, pick an audio file. The app estimates the BPM and can analyze it right away.</li>
+  <li>No audio of your own? Tap “<strong>Try the sample song</strong>” on the empty Scores screen.</li>
+  <li>Correct the result under “Edit score”. You can shift the bar lines too.</li>
+  <li>You may send your corrections to the developer with “Send” (optional; the first time explains what is sent).</li>
+</ul>
+
+<h2>What it can and cannot do</h2>
+<table>
+  <tr><th>Audio</th><td>44.1 kHz only. <strong>48 kHz files are not supported yet</strong> (declined at import)</td></tr>
+  <tr><th>Length</th><td><strong>Up to about 7 minutes</strong></td></tr>
+  <tr><th>Accuracy</th><td><strong>Not perfect.</strong> Manual correction is expected. Fast attacks and fast tempos are hard</td></tr>
+  <tr><th>Best with</th><td>Slower songs with simple bass lines</td></tr>
+  <tr><th>Tempo</th><td>One BPM and an even bar grid. <strong>It does not follow tempo drift in a human performance</strong></td></tr>
+  <tr><th>Network</th><td>All analysis runs on your iPhone. The app connects only when you tap “Send” (and when it retries a submission that could not be sent earlier)</td></tr>
+  <tr><th>Requirements</th><td>iOS 16.4 or later. <strong>Designed for iPhone 11 or newer</strong> (on older models the analysis may stop partway). The developer has verified the app on iOS 26 (iPhone 11). iPhone only (no iPad layout)</td></tr>
+</table>
+
+<h2>FAQ</h2>
+<p><strong>Q. Is my audio uploaded?</strong><br>No. We never send the audio itself, where the file is stored on your iPhone, or any fingerprint (hash) computed directly from the audio data. See the next question about song titles.</p>
+<p><strong>Q. What does “Send” upload?</strong><br>The score the app produced and the corrections made to it. A song title is required; the field is pre-filled with the name from your score list and you can change it before sending. <strong>The notes themselves may make it possible to guess which song it is.</strong> We use them only to improve the analysis, and we never publish or share them.</p>
+<p><strong>Q. The bar lines do not match the music.</strong><br>Use “Bar line” under “Edit score” to shift them. The app cannot follow a tempo that changes during the song.</p>
+<p><strong>Q. I want to use a 48 kHz file.</strong><br>We are considering support in a future version. For now, please convert to 44.1 kHz.</p>
+<p><strong>Q. I do not want to send corrections.</strong><br>Every feature works without sending. You can also withdraw consent in Settings.</p>
+
+</body>
+</html>
