@@ -22,7 +22,7 @@
 <body>
 
 <h1>ベース耳TAB プライバシーポリシー</h1>
-<p class="date">最終更新：2026-09-20</p>
+<p class="date">最終更新：2026-10-11</p>
 <p class="who">本アプリは個人の開発者が個人で開発・運営しています。</p>
 
 <h2>1. 集めないもの</h2>
@@ -30,13 +30,14 @@
 
 <h2>2. 音源について</h2>
 <p>取り込んだ音源は、この iPhone の中だけで解析します。音源そのもの、iPhone の中でのファイルの場所、音源のデータから直接計算した指紋（ハッシュ）を、外へ送ることはありません。</p>
+<p>ミュージックアプリから選んだ曲も、この iPhone の中だけで解析します。曲そのものを外へ送ることはありません。曲名は、楽譜一覧の名前としてこの iPhone の中に残ります。この名前は、楽譜の修正を送るとき（3.）と、不具合・要望の送信で曲名を選んだとき（3-2.）に、一緒に送られます。</p>
 
 <h2>3. 楽譜の修正の送信（任意）</h2>
 <p>楽譜を手で直したとき、<strong>解析でできた楽譜（直す前）</strong>と<strong>その修正内容</strong>を送っていただけます。送るのは次のものです。</p>
 <ul>
   <li><strong>解析でできた楽譜（音符の並び。小節・マス・弦・フレット・長さ・休符・タイ）</strong></li>
   <li>修正した位置（小節とマス）と直した内容（弦・フレット・長さ・タイ・小節線のずらし）</li>
-  <li><strong>曲名（必須）</strong>。欄には楽譜一覧の名前が初めから入っています。この名前は、多くの場合、取り込んだ音源のファイル名から作られています。送る前に確認して、書き換えられます。アーティスト名を書き添えていただくこともできます（任意）。</li>
+  <li><strong>曲名（必須）</strong>。欄には楽譜一覧の名前が初めから入っています。この名前は、多くの場合、取り込んだ音源のファイル名から作られています。送る前に確認して、書き換えられます。ミュージックから選んだ曲は、その曲名から作られます。アーティスト名を書き添えていただくこともできます（任意）。</li>
   <li>曲の長さ（秒）</li>
   <li>その楽譜の指紋（ハッシュ）。<strong>同じ音源を同じ設定で解析すると同じ値になり</strong>、別の方が送った楽譜と<strong>「同じ楽譜かどうか」が分かります。</strong></li>
   <li>解析に使った BPM と、解析の設定</li>
@@ -50,11 +51,33 @@
 <p>送っていただいた楽譜と修正内容は、<strong>受け取ってから最長 1 年</strong>で削除します（起点は、こちらの受け口が受け取った時刻です）。なお、検出の精度を改善するために作成した資料（どなたとも結びつかないもの）は、その後も保持することがあります。</p>
 <p>送信にあたって、どなたが送ったかを示す情報は受け取っていません。そのため、<strong>「自分が送った分だけを削除してほしい」というご依頼にはお応えできません。</strong>送るかどうかは、毎回お客さまが選べます。</p>
 
+<h2>3-2. 不具合・要望の送信（任意）</h2>
+<p>設定画面の「お問い合わせ」→「不具合・要望を送る」から、アプリの不具合やご要望を送っていただけます。送るのは次のものです。</p>
+<ul>
+  <li>選んだ種類（操作の不具合／操作の質問／落ちた・固まった／要望）</li>
+  <li>書いていただいた文</li>
+  <li>アプリの版・iOS の版・機種（例：iPhone12,1）</li>
+  <li><strong>曲名（選んだときだけ）</strong>。そのとき楽譜タブで開いている曲の名前です。</li>
+  <li><strong>この iPhone の中の動きの記録（選んだときだけ）</strong>。曲名が含まれます。送る前に、アプリの置き場や一時ファイルを指す番号・IP アドレス・メールアドレスの形をした文字を取り除きます。新しい側から一定の量までです。</li>
+  <li>こちらの受け口が受け取った時刻</li>
+</ul>
+<p>お名前・メールアドレス・音源は送りません（入力する欄もありません）。いただいた内容は<strong>アプリを直すためだけ</strong>に使い、第三者へ販売・提供せず、公開もしません。<strong>返信はできません</strong>（返信が必要なときは 8. のメールへ）。</p>
+<p>送信は、画面で「送る」を押したときに行います。初めて送るときは、何を送るかの説明を表示し、同意をいただいた場合のみ送信します。<strong>この同意は 3. の楽譜の修正の送信とは別のもの</strong>で、設定画面でいつでも取り消せます。通信できずに送れなかった分は、次にアプリを開いたとき、またはアプリに戻ったときに送り直します（同意を取り消された場合は送り直しません）。</p>
+<p>短い時間に多くの送信が来たときにお断りするため、受け口は接続元の IP アドレスを<strong>数えるためだけ</strong>に一時的に使います。IP アドレスは<strong>こちらの置き場には保存しません</strong>（連投を数える仕組みが一時的に持つ数は、報告の内容とは結び付きません）。アプリの側でも、一度送ったあと 60 秒は次を送れないようにしています。</p>
+<p>いただいた内容は Cloudflare 社のサービス上で保管し、<strong>受け取ってから最長 1 年</strong>で削除します。どなたが送ったかを示す情報は受け取っていないため、<strong>「自分が送った分だけを削除してほしい」というご依頼にはお応えできません。</strong></p>
+
 <h2>4. 動きの記録</h2>
-<p>アプリの動きの記録（ログ）は、この iPhone の中にだけ残ります。曲名が含まれます。設定画面からご自身で書き出さない限り、外に出ることはありません。</p>
+<p>アプリの動きの記録（ログ）は、この iPhone の中にだけ残ります。曲名が含まれます。設定画面からご自身で書き出すか、3-2. の不具合・要望の送信で「記録を添える」を選んだ場合を除き、外に出ることはありません（添えた場合の扱いは 3-2. のとおりです）。</p>
 
 <h2>5. 写真への保存</h2>
 <p>楽譜を画像として保存する操作をされた場合のみ、写真への追加の許可を求めて保存します。<strong>お客さまの写真を読み取ることはありません。</strong></p>
+
+<h2>5-2. 通知</h2>
+<p>解析が終わったこと・途中で止まったことを知らせる通知は、この iPhone の中で作って出すだけで、外部に送ることはありません（お使いの iPhone で通知を許可したときだけ出ます）。</p>
+
+<h2>5-3. 応援（アプリ内課金）</h2>
+<p>応援（アプリ内課金）の支払いは Apple が扱います。このアプリが、お支払いの情報（カード・Apple ID など）を受け取ることはありません。この iPhone の中には、応援した<strong>回数だけ</strong>を残します（日付・金額は残しません）。</p>
+<p>開発者は、売上を数えるために Apple から届く通知を受け取り、その<strong>日付・商品・金額・通貨・購入か返金か</strong>だけを保存します（最長 1 年）。お客さまや取引を特定できる番号は保存しません。</p>
 
 <h2>6. 外部のページを開くとき</h2>
 <p>設定画面から本ページやサポートのページを開くと、iPhone の標準のブラウザが起動します。そのときの通信は、ブラウザと当サイトの間で行われます。当サイトには、閲覧を追跡する仕組み（解析・広告・外部の読み込み）を置いていません。</p>
@@ -68,7 +91,7 @@
 <hr style="margin:40px 0 0;border:0;border-top:1px solid rgba(128,128,128,.28)">
 
 <h1 class="lang">Bass TAB by Ear — Privacy Policy</h1>
-<p class="date">Last updated: 2026-09-20</p>
+<p class="date">Last updated: 2026-10-11</p>
 <p class="who">This app is developed and operated by an individual developer.</p>
 
 <h2>1. What we do not collect</h2>
@@ -76,13 +99,14 @@
 
 <h2>2. Your audio</h2>
 <p>Audio you import is analyzed on this iPhone only. We never send the audio itself, where the file is stored on your iPhone, or any fingerprint (hash) computed directly from the audio data.</p>
+<p>Songs you choose from the Music app are also analyzed only on this iPhone. The songs themselves are never sent anywhere. The song title is saved on this iPhone as the name in your score list. It is sent only when you choose to send a score correction (see section 3) or choose to include the song title in a problem report (see section 3-2).</p>
 
 <h2>3. Sending score corrections (optional)</h2>
 <p>When you correct a score by hand, you may send <strong>the score the app produced</strong> together with <strong>your corrections</strong>:</p>
 <ul>
   <li><strong>the score the app produced (the sequence of notes: bar, step, string, fret, duration, rests and ties)</strong></li>
   <li>the position (bar and step) and what you changed (string, fret, duration, tie, bar-line shift)</li>
-  <li><strong>a song title (required)</strong>. The field is pre-filled with the name from your score list; in most cases that name comes from the file name of the audio you imported. You can check and change it before sending. You may also add the artist (optional).</li>
+  <li><strong>a song title (required)</strong>. The field is pre-filled with the name from your score list; in most cases that name comes from the file name of the audio you imported. You can check and change it before sending. For songs chosen from the Music app, it comes from the song title. You may also add the artist (optional).</li>
   <li>the length of the song (seconds)</li>
   <li>a fingerprint (hash) of the score. <strong>The same audio analyzed with the same settings produces the same value</strong>, which tells us <strong>whether two submissions are for the same score.</strong></li>
   <li>the BPM and the analysis settings used</li>
@@ -96,11 +120,33 @@
 <p>We delete the submitted score and corrections <strong>within one year</strong> of receiving them (measured from the time our server received them). Materials we create from them to improve detection accuracy — which are not linked to any individual — may be kept after that.</p>
 <p>Because we receive nothing that identifies who sent a submission, <strong>we cannot act on a request to delete “my” submissions.</strong> You choose whether to send, every time.</p>
 
+<h2>3-2. Sending a problem report or request (optional)</h2>
+<p>From Settings → Contact → “Report a problem or request”, you can send us a problem or a request. We send:</p>
+<ul>
+  <li>the types you chose (something doesn’t work / how do I…? / crashed or froze / request)</li>
+  <li>what you wrote</li>
+  <li>the app version, the iOS version and the device model (for example, iPhone12,1)</li>
+  <li><strong>the song title (only if you choose it)</strong> — the song open in the Score tab at that moment</li>
+  <li><strong>this iPhone’s activity log (only if you choose it)</strong>. It includes song names. Before sending, we remove the numbers that point to the app’s storage or temporary files, and anything shaped like an IP address or an email address. Only the most recent part is sent.</li>
+  <li>the time our server received it</li>
+</ul>
+<p>We never send your name, email address or audio (there is no field for them). We use what you send <strong>only to fix the app</strong>; we do not sell, share or publish it. <strong>We can’t reply</strong> (if you need a reply, please use the email in section 8).</p>
+<p>Sending happens when you tap “Send”. The first time, we show what would be sent and ask for your consent. <strong>This consent is separate from the one for sending score corrections (section 3)</strong>, and you can withdraw it at any time in Settings. If a report could not be sent because the network was unavailable, the app tries again the next time you open it or return to it (it does not retry if you have withdrawn consent).</p>
+<p>To decline bursts of submissions, our server uses the connecting IP address temporarily <strong>only to count requests</strong>. We <strong>do not store the IP address in our storage</strong> (the counts that the rate-limiting mechanism keeps temporarily are not linked to the content of your report). The app itself also waits 60 seconds after a report before another can be sent.</p>
+<p>Reports are stored on Cloudflare’s services and deleted <strong>within one year</strong> of receipt. Because we receive nothing that identifies who sent a report, <strong>we cannot act on a request to delete “my” reports.</strong></p>
+
 <h2>4. Activity log</h2>
-<p>The activity log stays on this iPhone. It includes song names. It never leaves the device unless you export it yourself from Settings.</p>
+<p>The activity log stays on this iPhone. It includes song names. It never leaves the device unless you export it yourself from Settings, or choose “Attach this iPhone’s log” when sending a report in section 3-2 (it is then handled as described there).</p>
 
 <h2>5. Photos</h2>
 <p>We save an image to Photos only when you ask us to, requesting add-only access to your photo library. <strong>We never read your photos.</strong></p>
+
+<h2>5-2. Notifications</h2>
+<p>The notifications that tell you an analysis has finished or has stopped partway are created and shown on this iPhone only. Nothing is sent outside (they appear only if you allow notifications).</p>
+
+<h2>5-3. Tips (in-app purchase)</h2>
+<p>Payments for tips are handled by Apple. This app never receives your payment details (card, Apple ID, and so on). On this iPhone we keep <strong>only the number of tips</strong> you have left (no dates or amounts).</p>
+<p>To count sales, the developer receives notifications from Apple and keeps only the <strong>date, product, amount, currency, and whether it was a purchase or a refund</strong> (for up to one year). No number that identifies you or the transaction is kept.</p>
 
 <h2>6. Opening these pages</h2>
 <p>Opening this page or the support page from Settings launches your browser. That request goes between your browser and this site. This site carries no tracking, analytics, ads, or third-party resources.</p>
